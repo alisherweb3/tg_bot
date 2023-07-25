@@ -47,7 +47,7 @@ endi ```config.py``` degan fayl ochamiz. bu fayl bizni API kalitlarimizni o'z ic
 
 va oxirida, API yandex Pogoda ni qanday ishlayotganini tekshirish uchun ```request.py``` dagan fayl ochamiz.
 
-Endi esa mana bu linkga <link>yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html#forecast</link> o'tamiz. 
+Endi esa mana bu <a href="yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html#forecast"> linkga </a> o'tamiz. 
 
 
 
