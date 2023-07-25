@@ -12,15 +12,15 @@ Chunki bu yerda test mode da bepul meteo data ni so'rash mumkin.
 
 BU API faqat koordinatalarni qabul qiladi. Bizga esa shahar nomi kerak, raqamlar emas, shuning uchun, API yandex.geocoder dan foydalanamiz.
 
-API nima -- ( Application programming Interface ) - internetdan oson tarzda ma'lumotni yig'adigan dastur. hozircha shuni o'zini bilish kifoya, keyin yana to'xtalamiz.
+### API nima -- ( Application programming Interface ) - internetdan oson tarzda ma'lumotni yig'adigan dastur. hozircha shuni o'zini bilish kifoya, keyin yana to'xtalamiz.
 
 API nima uchun mashhur va qulay?
 
 API ni ishlatilishidan bir misol keltiramiz. Masalan: YouTube, Youtube da Frontend va BackEnd bor, va ularni API birlashtiradi. Chunki YouTubeda juda ko'p ma'lumot bor. va juda ko'pchilik foydalanadi, Shuning uchun serverlarni alohida ajratish, saytni tez ishlashiga olib keladi va har bir kishi uchun alohida Frontend ko'rsatadi. Har bir kishi uchun, xususiy YouTube bor. Hech kimniki bir biriga o'xshamaydi.
 
-GET -- Biror bir resursdan ma'lumotni chaqirib oladi. Masalan siz github saytini reload qilsangiz, sizning brauzeringiz github.com ga GET buyrug'ini beradi.
+### GET -- Biror bir resursdan ma'lumotni chaqirib oladi. Masalan siz github saytini reload qilsangiz, sizning brauzeringiz github.com ga GET buyrug'ini beradi.
 
-POST -- Qaysidir ma'lumotlarni serverga yuborish, masalan saytga kirish uchun , login parolni yozgandan keyin, POST buyrug'i, sayt serveriga, siz kiritgan ma'lumotlarni yuboradi.
+### POST -- Qaysidir ma'lumotlarni serverga yuborish, masalan saytga kirish uchun , login parolni yozgandan keyin, POST buyrug'i, sayt serveriga, siz kiritgan ma'lumotlarni yuboradi.
 
 PUT -- POST ga o'xshab ketadi, lekin PUT, ma'lumotlarni yangilaydi.
 
@@ -39,10 +39,10 @@ Ana endi sizga kalit berildi.
 
 VA Nihoyat kod yozish vaqti yetib keldi.
 
-Python IDE siga kiramiz. va requirements.txt va .gitignore fayllarini ochamiz.
+### Python IDE siga kiramiz. va ```requirements.txt``` va ```.gitignore``` fayllarini ochamiz.
 
-Keyin esa Git da py -m venv myenv deb yozamiz  va source myenv/scripts/activate deb uni ishga tushiramiz.
+Keyin esa Git da ```py -m venv myenv``` deb yozamiz  va ```source myenv/scripts/activate``` deb uni ishga tushiramiz.
 
-endi config.py degan fayl ochamiz. bu fayl bizni API kalitlarimizni o'z ichida saqlaydi.
+endi ```config.py``` degan fayl ochamiz. bu fayl bizni API kalitlarimizni o'z ichida saqlaydi.
 
-va oxirida, API yandex Pogoda ni qanday ishlayotganini tekshirish uchun request.py dagan fayl ochamiz.
+va oxirida, API yandex Pogoda ni qanday ishlayotganini tekshirish uchun ```request.py``` dagan fayl ochamiz.
