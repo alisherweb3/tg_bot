@@ -46,3 +46,9 @@ Keyin esa Git da ```py -m venv myenv``` deb yozamiz  va ```source myenv/scripts/
 endi ```config.py``` degan fayl ochamiz. bu fayl bizni API kalitlarimizni o'z ichida saqlaydi.
 
 va oxirida, API yandex Pogoda ni qanday ishlayotganini tekshirish uchun ```request.py``` dagan fayl ochamiz.
+
+Endi esa mana bu linkga <link>yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html#forecast</link> o'tamiz. 
+
+
+
+Keyinroq, PostgreSQL va Dockerni ulaymiz. Aiogram ni ishlatib ko'ramiz.
