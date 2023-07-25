@@ -47,8 +47,52 @@ endi ```config.py``` degan fayl ochamiz. bu fayl bizni API kalitlarimizni o'z ic
 
 va oxirida, API yandex Pogoda ni qanday ishlayotganini tekshirish uchun ```request.py``` dagan fayl ochamiz.
 
-Endi esa mana bu <a href="yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html#forecast"> linkga </a> o'tamiz. 
+Endi esa API ishlayotganini ko'rish uchun mana bu <a href="yandex.ru/dev/weather/doc/dg/concepts/forecast-info.html#forecast"> linkga </a> o'tamiz. 
+
+Request format
+```
+GET https://api.weather.yandex.ru/v2/informers?
+  lat=<kenglik>
+  & lon=<uzunlik>
+  & [lang=<javob tili>]
+
+X-Yandex-API-Key: <kalitni yozamiz>
+```
+
+Aynan mana bu manzilga GET so'rovini (request) yuborish kerak.
+```
+https://api.weather.yandex.ru/v2/informers?
+```
+
+Hammasini yozib bo'lgandan keyin, keyingi qadamga o'tamiz.
 
 
+
+so'rov formati
+```
+https://geocode-maps.yandex.ru/1.x
+? geocode=<string>
+& apikey=<string>
+& [sco=<string>]
+& [kind=<string>]
+& [rspn=<boolean>]
+& [ll=<number>, <number>]
+& [spn=<number>, <number>]
+& [bbox=<number>, <number>~<number>,<number>]
+& [formar=<string>]
+& [results]<integer>]
+& [skip=<integer>]
+& [lang=<string>]
+& [callback=<string>]
+```
+
+bu yerdagi geocode* - geografik manzil, bu yerda koordinatlar yoki shahar nomi yozilishi mumkin.
+
+*apikey - API kaliti
+
+mana bu saytga GET request yuboriladi
+```
+https://geocode-maps.yandex.ru/1.x?
+```
 
 Keyinroq, PostgreSQL va Dockerni ulaymiz. Aiogram ni ishlatib ko'ramiz.
