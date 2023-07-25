@@ -39,7 +39,7 @@ Ana endi sizga kalit berildi.
 
 VA Nihoyat kod yozish vaqti yetib keldi.
 
-### Python IDE siga kiramiz. va ```requirements.txt``` va ```.gitignore``` fayllarini ochamiz.
+Python IDE siga kiramiz. va ```requirements.txt``` va ```.gitignore``` fayllarini ochamiz.
 
 Keyin esa Git da ```py -m venv myenv``` deb yozamiz  va ```source myenv/scripts/activate``` deb uni ishga tushiramiz.
 
